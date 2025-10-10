@@ -1,0 +1,53 @@
+{"intents": [
+    {
+        "tag": "greetings",
+        "patterns": ["hi", "hey", "hello", "good day", "Greetings", "whats up?", "how is it going?", "yo", "yooo"],
+        "responses": ["Hi!", "Hello!", "Hello there!", "What can I do for you today?", "Greetings", "Hi there", "How can I assist you today?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later", "catch you later", "farewell", "take care"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Bye!", "Have a great day!", "Farewell!"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "thx", "appreciate it", "much obliged"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!", "My pleasure!"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["what is your name?", "who are you?", "do you have a name?", "tell me your name"],
+        "responses": ["I'm Uzair GPT.", "You can call me AI Bot.", "I’m your chatbot, here to help!"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["how old are you?", "what is your age?", "when were you created?"],
+        "responses": ["I'm timeless!", "I was created recently to assist you.", "Age is just a number, and I’m quite new!"]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["what's the weather like?", "is it raining?", "tell me the weather", "weather forecast"],
+        "responses": ["I can't check live weather yet, but I suggest using a weather website!", "Try searching 'weather near me' on Google."]
+    },
+    {
+        "tag": "joke",
+        "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+        "responses": ["Why don’t scientists trust atoms? Because they make up everything!", "I would tell you a joke about construction, but I’m still working on it.", "Why was the math book sad? It had too many problems."]
+    },
+    {
+        "tag": "help",
+        "patterns": ["help me", "i need help", "can you help?", "what can you do?"],
+        "responses": ["I can answer your questions, tell jokes, and have casual chats!", "Sure, I'm here to help. What do you need?", "I can help with basic questions, just ask me anything!"]
+    },
+    {
+        "tag": "feeling",
+        "patterns": ["how are you?", "how's it going?", "are you okay?", "how do you feel?"],
+        "responses": ["I'm doing great, thanks for asking!", "Feeling chatty as always!", "I’m just a bot, but I’m doing fine!"]
+    },
+    {
+        "tag": "creator",
+        "patterns": ["who made you?", "how were you made?", "who is your creator", "how were you created?"],
+        "responses": ["I was made by a very cool programmer","Uzair is my creator!","Uzair created me using a powerfull language called python!"]
+    }
+]
+}

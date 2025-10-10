@@ -1,0 +1,34 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "what's up", "yo"],
+      "responses": ["Bot: Hello!", "Bot: Hi there!", "Bot: Hey! How can I help you today?", "Bot: Greetings!"]
+    },
+    {
+      "tag": "show_todos",
+      "patterns": ["show my todos", "what do I have to do?", "list my tasks", "show tasks", "display todos"],
+      "responses": [""]
+    },
+    {
+      "tag": "delete_todo",
+      "patterns": ["delete a task", "remove this todo", "remove a task", "delete something from my list"],
+      "responses": [""]
+    },
+    {
+      "tag": "add_todo",
+      "patterns": ["add a new task", "remind me to", "create a todo", "add something to my list"],
+      "responses": [""]
+    },
+    {
+      "tag": "what_can_you_do",
+      "patterns": ["what can you do?", "how can you help?", "tell me your features", "what are your functions?"],
+      "responses": ["Bot: I can manage your to-dos, chat with you, and help with simple tasks. Just ask!", "Bot: I can add, delete, and show your tasks, and answer basic questions."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "talk to you later", "later"],
+      "responses": ["Bot: Goodbye!", "Bot: See you soon!", "Bot: Take care!", "Bot: Have a nice day!"]
+    }
+  ]
+}

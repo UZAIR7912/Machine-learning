@@ -1,0 +1,6 @@
+rules:
+1)replace some 'R's with either 'R/N' or 'R/D'
+2)Keep at least 3 'D's(or "R/D"s) and 3 'N's(or "R/N") in each column
+3)'R/D' cannot come after 'N' or 'R/N'
+4)'R/N' cannot come before 'D' or 'R/D'
+5)Don't replace 'D','N','L','L/R','T','T/R'
